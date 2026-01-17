@@ -1,0 +1,43 @@
+# ===== data & experiment outputs =====
+data/
+dataset/
+datasets/
+
+results/
+results0/
+output_*/
+exps_*/
+111111111/
+
+# logs
+*.log
+log.txt
+events.out.tfevents.*
+
+# checkpoints
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# ===== python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ===== build / compile =====
+build/
+dist/
+*.o
+*.so
+*.a
+.ninja_*
+
+# ===== wheel & binaries =====
+*.whl
+
+# ===== misc =====
+wandb/
+.DS_Store
